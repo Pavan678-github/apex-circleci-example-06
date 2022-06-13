@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /repo
     docker:
-      - image: atsnngs/force-com:latest
+      - image: atsnngs/force-com
     steps:
       - checkout
       - run:
